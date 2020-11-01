@@ -1,0 +1,300 @@
+@font-face {
+    // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+    font-family: "Roboto";
+    // адрес шрифта и тип
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/static/Oswald-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Miriam Libre";
+    src: url("../fonts/MiriamLibre-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Offside";
+    src: url("../fonts/Offside-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.nav-links {
+    font-family: Roboto 1p solid;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 33px;
+    line-height: 30px;
+}
+
+.logo {
+    font-family: Mplus 1p Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100%;
+    color: #FDEB4C;
+}
+
+.imgBack {
+    background: #181818;
+}
+
+.quote {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+}
+
+.d {
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.test {
+    border-radius: 30px;
+    border: 1px solid #FFF96A;
+    height: 57px;
+    width: 57px;
+    color: #FFF96A;
+    display: flex;
+}
+
+.test-text {
+    margin: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 56px;
+}
+
+.headingInSectTwo {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    color: #ffffff;
+
+}
+
+.place2 {
+    background: linear-gradient(180deg, #1E1E1E 0%, rgba(255, 255, 255, 0) 100%), #161616;
+    height: 100vh;
+}
+
+.afterHead {
+    font-family: Miriam Libre;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info {
+    background: #ffffff;
+    height: 64vh;
+    border-bottom: 8px #FCFF67 solid;
+}
+
+.colTest {
+    font-family: Offside;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 61px;
+    color: #FFD600;
+}
+
+.pCol {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+}
+
+.p2col {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.btnP {
+    font-family: Oswald;
+}
+
+.place3 {
+    height: 70vh;
+    background: white;
+}
+
+.colImg {
+    background: url('../img/pexels-fauxels-3183197%20(1)%201.png') no-repeat;
+}
+
+.headingInInfo {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+}
+
+.afterHeadingInfo {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.afterHeadingInfo2 {
+    font-family: Oswald;
+    font-style: normal;
+    text-align: left;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 53px;
+}
+
+.move {
+    font-family: Roboto;
+}
+
+.btn-warning2 {
+    background: #000000;
+    color: white;
+}
+
+.colImg3 {
+    background: url('../img/Rectangle%2071.png') no-repeat;
+}
+
+.colImg2 {
+    background: url('../img/fornite%20(2)%201.svg') no-repeat;
+}
+
+.nav-d {
+    background: #252525;
+}
+
+.lolkek {
+    background: #302E2E;
+}
+
+.placeF {
+    background: #ffffff;
+}
+
+.place4 {
+    background: #302E2E;
+}
+
+.place5 {
+    background: #202020;
+}
+
+.colonna {
+    background: #F0F0F0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+}
+
+.cardRow {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.njz {
+    background: #FE9D43 !important;
+    border: none !important;
+    border-radius: 6px;
+    width: 50px;
+    margin-left: 10px;
+    height: 15px;
+}
+
+.btn-plus {
+    background: #FDF42A !important;
+    border-radius: 8px;
+    height: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.plus {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.pFooter {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 71px;
+    text-align: center;
+    color: white;
+    margin-left: 100px
+}
+
+.colTitle {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.textInCard {
+    margin-left: 10px;
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.countryName {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+.countryMembers {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #CECBCB;
+}

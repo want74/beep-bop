@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/base.css">
+	<title>COVID-19</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<style>
+		body {
+			margin: 0;
+		}
+
+		.service-category {
+			height: 15vw;
+			width: 15vw;
+			border-radius: 30px;
+		}
+
+		.parallax-window {
+			min-height: 70vh;
+			background: transparent;
+
+		}
+
+		.sympts:hover {
+			font-size: 34px;
+			transition: 0.4s;
+		}
+
+		.h4hover:hover {
+			font-size: 34px;
+			transition: 1s;
+		}
+
+		.marks {
+			-webkit-transform: rotate(-90deg);
+			transform: rotate(-90deg);
+			display: flex;
+			margin-top: 100px;
+			z-index: 4;
+			margin-left: -107px;
+		}
+
+		.mark {
+			border-radius: 20px 0px 0px 0px;
+		}
+		}
+
+		.service-category {
+			height: 18vw;
+			width: 18vw;
+			border-radius: 30px;
+		}
+
+		.modal-body p {
+			margin-bottom: 6px;
+		}
+
+		.img {
+			height: 100px;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="col">
+
+		<div class="row">
+			<div class="col">
+				<!--Что такое корона-->
+				<section class="panel" style="height: 100vh;">
+					<div class="row">
+						<!--Фото-->
+						<div class="col">
+							<img src="img/corona.webp" class="w-100" style="height: 100%;">
+						</div>
+						<!--Инфа-->
+						<div class="col">
+							<div class="row">
+								<div class="col">
+									<div class="row" style="margin-top: 25vh;">
+										<h1 class="text-left" style="font-size: 40px;">Коронавирус</h1>
+									</div>
+									<div class="row">
+										<p class="heading-sm text-left" style="font-size: 28px;line-height: 33px;">Что это такое?</p>
+									</div>
+									<div class="row">
+										<p class="text-left h4" style="font-size: 18px;line-height: 21px;">Коронавирус — это вирус, передающийся людям и животным. 2019-nCoV — это новый штамм коронавируса, который произошел от диких животных.<br><br>Пути передачи: воздушно-капельный (при разговоре, чихании, кашле) и контактный (при касании грязными руками лица, носа, глаз). Процент летальности — 2,3%.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="parallax-window" data-parallax="scroll" data-image-src="img/parallax1.jpg"></div>
+
+				<!--Что можно, что нет-->
+				<section class="panel" style="height: 100vh; background: #fff4f4">
+					<div class="row">
+						<div class="col-3  mx-auto">
+							<img src="img/sypt.png" class="w-100" style="margin-top: 3vh">
+						</div>
+					</div>
+					<h1 class="text-center" style="margin-top: 5vh">СИМПТОМЫ</h1>
+					<p class="text-center">Если вы однаружили данные симптомы, то советуем вызать скорую (112).</p>
+					<div class="container">
+						<div class="row text-center" style="margin-top: 10vh;">
+							<div class="col">
+								<h4 class="text-danger sympts pain">БОЛЬ В ГОРЛЕ</h4>
+							</div>
+							<div class="col">
+								<h4 class="text-warning sympts kash">КАШЕЛЬ</h4>
+							</div>
+							<div class="col">
+								<h4 class="text-success sympts temp">ПОВЫШЕНИЕ ТЕМПЕРАТУРЫ СЕРДЦА</h4>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="parallax-window" data-parallax="scroll" data-image-src="img/parallax2.jpg"></div>
+
+				<section class="panel" style="height: 100vh;">
+					<div class="row" style="background: #FF8C8C ;">
+						<h1 class="mx-auto" style="font-size: 40px;line-height: 47px;">ПРОФИЛАКТИКА</h1>
+					</div>
+					<div class="row text-center" style="height: 100%;">
+						<div class="col" style="background: #E91212;">
+							<h4 class="text-white h4hover" style="margin-top:40vh;">Мойте руки</h4>
+						</div>
+						<div class="col" style="background: #FF1818;">
+							<h4 class="text-white h4hover" style="margin-top:40vh;">Не трогайте лицо</h4>
+						</div>
+						<div class="col" style="background: #FF3434;">
+							<h4 class="text-white h4hover" style="margin-top:40vh;">Избегайте людных мест</h4>
+						</div>
+						<div class="col" style="background: #FF4F4F;">
+							<h4 class="text-white h4hover" style="margin-top:40vh;">Избегайте рукопожатий</h4>
+						</div>
+						<div class="col" style="background: #FF7C7C;">
+							<h4 class="text-white h4hover" style="margin-top:40vh;">Меняйте маску каждый час</h4>
+						</div>
+					</div>
+				</section>
+
+				<div class="parallax-window" data-parallax="scroll" data-image-src="img/parallax3.jpg"></div>
+
+				<section class="panel" style="height: 100vh; background: linear-gradient(to left, #A6FF8F, #A6FF8F, #A6FF8F, #FF7676, #FF7676, #FF7676)">
+					<div class="row" style="height: 100%;">
+						<!--Нельзя-->
+						<div class="col" style=""><!-- background: #FF7676; -->
+							<div class="row">
+								<div class="col-6 mx-auto" style="font-style: normal;font-weight: normal;font-size: 40px;line-height: 47px;text-align: center;">
+									Запрещено во время карантина
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						<!--Можно-->
+						<div class="col" style=""><!-- background: #A6FF8F -->
+							<div class="row">
+								<div class="col-6 mx-auto" style="font-style: normal;font-weight: normal;font-size: 40px;line-height: 47px;text-align: center;">
+									Разрешено во время карантина
+								</div>
+							</div>
+							<div class="row">
+								<div class="col">
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+									<div class="row my-4">
+										<div class="card col-8 mx-auto">
+											<div class="card-body">
+												This is some text within a card body.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="parallax-window" data-parallax="scroll" data-image-src="img/parallax4.jpg"></div>
+				<!--Советы-->
+				<section class="panel" style="background: #fff4f4;">
+					<div class="row">
+						<div class="col">
+							<h3 class="text-center">
+								Челленджи от читателей.
+							</h3>
+						</div>
+					</div>
+					<!--Select-->
+					<div class="row">
+						<div class="col">
+							<!--Board-->
+							<div class="row">
+								<div class="col">
+									<div class="row chal">
+										<div class="card col-2 mx-auto chalenge" style="margin:5vh;">
+											<div class="card-body">
+												<h5 class="card-title">Прочти эти книги за 2 часа!!</h5>
+												<h6 class="card-subtitle mb-2 text-muted">От: KOPO6KA</h6>
+												<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#a72">Начать</button>
+											</div>
+
+											<!-- Modal -->
+											<div class="modal fade" id="a72" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+												<div class="modal-dialog modal-dialog-scrollable" role="document">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h5 class="modal-title" id="exampleModalScrollableTitle">Прочти эти книги за 2 часа!</h5>
+															<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																<span aria-hidden="true">&times;</span>
+															</button>
+														</div>
+														<div class="modal-body">
+															Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui hic error at, magnam sint recusandae a consequuntur, repellendus debitis exercitationem doloribus, reiciendis ad. Eligendi, itaque iusto soluta odio deleniti accusamus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, quos asperiores dicta magnam unde blanditiis ipsum ex illo corporis maiores consequatur? Consequuntur, incidunt porro quidem, voluptates quos eveniet fugiat libero!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quo in assumenda magnam amet qui sint et minus molestias velit earum quas odit a eveniet obcaecati quis porro quae voluptate.
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-dismiss="modal">Пока не получается</button>
+															<button type="button" class="btn btn-success btnSuccessChal" data-dismiss="modal">Я выполнил!</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="card col-2 mx-auto chalenge" style="margin:5vh;">
+											<div class="card-body">
+												<h5 class="card-title">Мойте руки!</h5>
+												<h6 class="card-subtitle mb-2 text-muted">От: noobmaster69</h6>
+												<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#a73">Начать</button>
+											</div>
+
+											<!-- Modal -->
+											<div class="modal fade" id="a73" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+												<div class="modal-dialog modal-dialog-scrollable" role="document">
+													<div class="modal-content">
+														<div class="modal-header">
+															<h5 class="modal-title" id="exampleModalScrollableTitle">Сделай 50 отжиманий!</h5>
+															<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+																<span aria-hidden="true">&times;</span>
+															</button>
+														</div>
+														<div class="modal-body">
+															Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui hic error at, magnam sint recusandae a consequuntur, repellendus debitis exercitationem doloribus, reiciendis ad. Eligendi, itaque iusto soluta odio deleniti accusamus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, quos asperiores dicta magnam unde blanditiis ipsum ex illo corporis maiores consequatur? Consequuntur, incidunt porro quidem, voluptates quos eveniet fugiat libero!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quo in assumenda magnam amet qui sint et minus molestias velit earum quas odit a eveniet obcaecati quis porro quae voluptate.
+														</div>
+														<div class="modal-footer">
+															<button type="button" class="btn btn-secondary" data-dismiss="modal">Пока не получается</button>
+															<button type="button" class="btn btn-success btnSuccessChal" data-dismiss="modal">Я выполнил!</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+							<!--Ввод текста-->
+							<div class="row align-bottom">
+								<form action="" class="mx-auto">
+									<div class="input-group">
+										<div class="input-group-prepend">
+											<span class="input-group-text">Ваш ник и текст пожалуйста</span>
+										</div>
+										<input type="text" aria-label="Nick" placeholder="Ник" class="form-control nickChal">
+										<input type="text" aria-label="heading" placeholder="Заголовок" class="form-control headingChal">
+										<div class="input-group-append">
+											<button class="btn btn-secondary btnChal" type="button" id="button-addon2">GO</button>
+										</div>
+									</div>
+									<textarea class="form-control textChal" id="exampleFormControlTextarea1" placeholder="Текст" rows="3"></textarea>
+								</form>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+				<div class="parallax-window" data-parallax="scroll" data-image-src="img/parallax1.jpg"></div>
+				<!--Советы-->
+				<section class="panel" style="background: #fff4f4;">
+					<div class="row">
+						<div class="col">
+							<h3 class="text-center">
+								Советы от читателей.
+							</h3>
+						</div>
+					</div>
+					<!--Select-->
+					<div class="row">
+						<div class="col">
+							<!--chat-->
+							<div class="row">
+								<div class="col">
+									<div class="row chat">
+										<div class="card col-2 mx-auto" style="margin:5vh;">
+											<div class="card-body">
+												<h5 class="card-title">Советую сериал lost!</h5>
+												<h6 class="card-subtitle mb-2 text-muted">От: noobmaster69</h6>
+												<p class="card-text">Крутот сюжет!!!</p>
+											</div>
+										</div>
+
+										<div class="card col-2 mx-auto" style="margin:5vh;">
+											<div class="card-body">
+												<h5 class="card-title">Советую minecraft!</h5>
+												<h6 class="card-subtitle mb-2 text-muted">От: MasterOfPi3.14</h6>
+												<p class="card-text">Крутая графика!</p>
+											</div>
+										</div>
+
+										<div class="card col-2 mx-auto" style="margin:5vh;">
+											<div class="card-body">
+												<h5 class="card-title">Советую сервис Едадил</h5>
+												<h6 class="card-subtitle mb-2 text-muted">От: notCoder</h6>
+												<p class="card-text">Быстрая доставка</p>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!--Ввод текста-->
+					<div class="row align-bottom">
+						<form action="#3" class="mx-auto">
+							<div class="input-group">
+								<div class="input-group-prepend">
+									<span class="input-group-text">Ваш ник и текст пожалуйста</span>
+								</div>
+								<input type="text" aria-label="Nick" placeholder="Ник" class="form-control nick">
+								<input type="text" aria-label="heading" placeholder="Заголовок" class="form-control heading">
+								<input type="text" aria-label="Text" placeholder="Текст" class="form-control text">
+								<div class="input-group-append">
+									<button class="btn btn-secondary btnSov" type="button" id="button-addon2">GO</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+
+				<div class="parallax-window" data-parallax="scroll" data-image-src="img/parallax5.jpg"></div>
+
+				<section class="panel" style="background: #ffff;">
+					<div class="row">
+						<div class="col px-3">
+							<div class="row">
+								<div class="col p-0">
+									<section class="first_slide px-5">
+										<h1 class="text-center">Каталог полезных онлайн-сервисов</h1>
+										<div class="container mt-3">
+											<div class="row">
+												<div class="col">
+													<div class="row">
+														<div class="col-3 border ml-auto mr-2" style="border-radius: 10px;">
+															<div class="row">
+																<img src="img/food.png" class="w-75 mx-auto rounded mt-3" alt="">
+															</div>
+															<div class="row">
+																<h6 class="mx-auto my-3">Заказ продуктов</h6>
+															</div>
+															<div class="row">
+																<button class="btn mx-auto btn-outline-secondary" data-toggle="modal" data-target="#exampleModal"> Подробнее</button>
+															</div>
+														</div>
+														<div class="col-3 border mr-auto ml-2" style="border-radius: 10px;">
+															<div class="row">
+																<img src="img/store.png" class="w-50 mx-auto rounded mt-3" alt="">
+															</div>
+															<div class="row">
+																<h6 class="mx-auto my-3">Онлайн магазины</h6>
+															</div>
+															<div class="row mb-3">
+																<button class="btn mx-auto btn-outline-secondary" data-toggle="modal" data-target="#exampleModal"> Подробнее</button>
+															</div>
+														</div>
+													</div>
+													<div class="row mt-4 mb-3">
+														<div class="col-3 border ml-auto mr-2" style="border-radius: 10px;">
+															<div class="row">
+																<img src="img/learn.png" style="max-height: 150px" class="w-75 mx-auto rounded mt-3" alt="">
+															</div>
+															<div class="row">
+																<h6 class="mx-auto my-3">Образование</h6>
+															</div>
+															<div class="row">
+																<button class="btn mx-auto btn-outline-secondary" data-toggle="modal" data-target="#study"> Подробнее</button>
+															</div>
+														</div>
+														<div class="col-3 border mr-auto ml-2" style="border-radius: 10px;">
+															<div class="row">
+																<img src="img/films.png" class="w-50 mx-auto rounded mt-3" alt="">
+															</div>
+															<div class="row">
+																<h6 class="mx-auto my-3">Наш список фильмов.</h6>
+															</div>
+															<div class="row  mb-3">
+																<button class="btn mx-auto btn-outline-secondary" data-toggle="modal" data-target="#kino"> Подробнее</button>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+                                           	<div class="col">
+                                               	<a href="test.html" here="test.html">
+                                                   	<h3 class="text-center">Наш список треков</h3>
+                                               	</a>
+                                           	</div>
+                                        </div>
+									</section>
+								</div>
+							</div>
+						</div>
+						<!-- /slides -->
+						<!-- modals for services -->
+						<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Заказ продуктов</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div class="row">
+											<div class="col">
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/токко.jpg" class="img">
+													<p><b>Токко</b></p>
+													<p>Доставка продуктов питания и хоз.товаров<br>Телефон: 7‒924‒765‒55‒88</p>
+													<a href="https://www.instagram.com/supermarket.tokko/">Офиц. страница</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/citypizza.jpg" class="img">
+													<p><b>Пиццерия CityPizza</b></p>
+													<p>Доставка готовых блюд<br>Телефон: 71-33-22</p>
+													<a href="https://pizza.ykt.ru/">Офиц. страница</a>
+												</div>
+											</div>
+											<div class="col">
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/ea.png" class="img">
+													<p><b>Elite Aqua</b></p>
+													<p>Доставка воды<br>Телефон: 8(4112)40-44-44</p>
+													<a href="http://elitykt.ru/">Офиц. страница</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/avs.jpg" class="img">
+													<p><b>Аква VS</b></p>
+													<p>Доставка воды<br>Телефон: 8914-270-84-51</p>
+													<a href="https://www.instagram.com/akvavs.voda/">Офиц. страница</a>
+												</div>
+											</div>
+
+										</div>
+										<div class="row">
+											<div class="col">
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/tar.png" class="img">
+													<p><b>Фуд-корт «Тарелка»</b></p>
+													<p>Доставка готовых блюд<br>Телефон: 300-160</p>
+													<a href="https://tarelka-ykt.ru/#main">Офиц. страница</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/mval.jpg" class="img">
+													<p><b>Маркет Валера</b></p>
+													<p>Доставка продуктов питания<br>Телефон: </p>
+													<a href="https://www.instagram.com/market_valera/">Офиц. страница</a>
+												</div>
+											</div>
+											<div class="col">
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/hru.jpg" class="img">
+													<p><b>Хрустик</b></p>
+													<p>Доставка готовых блюд<br>Телефон: 42-53-72</p>
+													<a href="https://www.instagram.com/hrustik_sakha/">Офиц. страница</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/kit.jpg" class="img">
+													<p><b>Китагава</b></p>
+													<p>Доставка готовых блюд<br>Телефон: 25-25-14</p>
+													<a href="http://kitagawa.su/">Офиц. страница</a>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col">
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/clad.png" class="img">
+													<p><b>Пекарня «Сладкие мечты»</b></p>
+													<p>Пекарня, Кондитерская<br>Телефон: 727-527</p>
+													<a href="https://tort-ykt.ru/">Офиц. страница</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/mval.jpg" class="img">
+													<p><b>Маркет Валера</b></p>
+													<p>Доставка продуктов питания<br>Телефон: </p>
+													<a href="https://www.instagram.com/market_valera/">Офиц. страница</a>
+												</div>
+											</div>
+											<div class="col">
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/hru.jpg" class="img">
+													<p><b>Хрустик</b></p>
+													<p>Доставка готовых блюд<br>Телефон: 42-53-72</p>
+													<a href="https://www.instagram.com/hrustik_sakha/">Офиц. страница</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/kit.jpg" class="img">
+													<p><b>Китагава</b></p>
+													<p>Доставка готовых блюд<br>Телефон: 25-25-14</p>
+													<a href="http://kitagawa.su/">Офиц. страница</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="modal fade bd-example-modal-lg" id="study" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLabel">Образовательные ресурсы</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div class="row">
+											<div class="col">
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/sgo.jpg" class="w-50">
+													<p><b>Сетевой Город</b></p>
+													<p>Электронный журнал и дневник</p>
+													<a href="https://sgo14.ru/">Сайт</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/rusdigitschool.jpg" class="w-50">
+													<p><b>Российская электронная школа</b></p>
+													<p>Образовательный ресурс</p>
+													<a href="https://resh.edu.ru/">Сайт</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/bilet.png" class="w-50">
+													<p><b>Билет в будущее</b></p>
+													<p>Образовательный ресурс</p>
+													<a href="https://site.bilet.worldskills.ru/">Сайт</a>
+												</div>
+											</div>
+											<div class="col">
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/reshege.jpg" class="w-50">
+													<p><b>Решу ЕГЭ</b></p>
+													<p>Образовательный ресурс</p>
+													<a href="https://ege.sdamgia.ru/">Сайт</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/wsrlogo-01.png" class="w-50">
+													<p><b>WorldSkills</b></p>
+													<p>Образовательный ресурс</p>
+													<a href="https://worldskills.ru/">Сайт</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/yaklass.png" class="w-50">
+													<p><b>ЯКласс</b></p>
+													<p>Образовательный ресурс</p>
+													<a href="https://www.yaklass.ru/">Сайт</a>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Modal -->
+						<div class="modal fade bd-example-modal-lg" id="kino" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+							<div class="modal-dialog modal-lg" role="document">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h5 class="modal-title" id="exampleModalLongTitle">Наши фильмы</h5>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+									<div class="modal-body">
+										<div class="row">
+											<div class="col">
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/moti.webp" class="w-50">
+													<p><b>Мотылёк</b></p>
+													<p>Авантюрист по прозвищу Мотылек получает пожизненный срок в тюрьме для особо опасных преступников — за убийство, которого он не совершал. Когда вокруг враги, а надежда угасает с каждым днём заключения, лишь сила духа может помочь Мотыльку обрести свободу.</p>
+													<a href="https://www.kinopoisk.ru/film/939411/">КиноПоиск</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/game.webp" class="w-50">
+													<p><b>Игры разумов</b></p>
+													<p>Англия середины XIX века. Оксфордский профессор Джеймс Мюррей работает над первым в истории словарем английского языка, а его главным соратником становится заключенный психиатрической клиники для особо опасных преступников — доктор Уильям Майнор.</p>
+													<a href="https://www.kinopoisk.ru/film/996027/">КиноПоиск</a>
+												</div>
+											</div>
+											<div class="col">
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/forma.webp" class="w-50">
+													<p><b>Форма голоса</b></p>
+													<p>Мир детей не терпит различий. Этот мир жесток, поскольку его обитатели, в отличие от обитателей мира взрослых, ещё не успели научиться скрывать мерзкие мысли. Дети прямолинейны и поэтому очень жестоки. Однако все дети когда-нибудь вырастают, и, оглядываясь назад во времена школьных дней, некоторым из них становится стыдно. <br>Сколько лет должно пройти, пока до задиры и разгильдяя дойдёт, каким негодяем он был, когда веселья ради издевался над инвалидом. Кто-то об этом даже не вспомнит. А кто-то вроде Сёи возненавидит себя крепкой ненавистью. В начальной школе он умудрился превратить жизнь одноклассницы Сёко в ад только потому, что та была глухая. И теперь хоть и запоздало, но парень понял — чтобы сказать нечто важное тому, кто не может тебя услышать, вовсе не обязательно использовать голос.</p>
+													<a href="https://www.kinopoisk.ru/film/963343/">КиноПоиск</a>
+												</div>
+												<div class="border border-secondary rounded-lg text-center py-3 mb-4">
+													<img src="img/jango.webp" class="w-50">
+													<p><b>Джанго освобожденный</b></p>
+													<p>Эксцентричный охотник за головами, также известный как Дантист, промышляет отстрелом самых опасных преступников. Работенка пыльная, и без надежного помощника ему не обойтись. Но как найти такого и желательно не очень дорогого? Освобождённый им раб по имени Джанго — прекрасная кандидатура. Правда, у нового помощника свои мотивы — кое с чем надо сперва разобраться.</p>
+													<a href="https://www.kinopoisk.ru/film/586397/">КиноПоиск</a>
+												</div>
+											</div>
+
+										</div>
+									</div>
+									<div class="modal-footer">
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+			</section>
+		</div>
+
+
+	</div>
+	</div>
+	<!--loader-->
+	<div class="loader">
+		<div class="logo-load">
+			<!--first-->
+			<div class="gradient first active">
+				НЕМНОГО О
+			</div>
+			<!--second-->
+			<div class="gradient second ">
+				COVID-19
+			</div>
+
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="js/Scrollify-master/jquery.scrollify.js"></script>
+	<script src="js/parallax.js"></script>
+	<script>
+		$(function(index) {
+			//Убирание loader
+			window.setTimeout(function() {
+				//Убирание loader
+				$('.loader').addClass('no-visible');
+			}, 2000);
+			//что написано на loader
+			window.setTimeout(function() {
+				$('.gradient.first').removeClass('active');
+				$('.gradient.second').addClass('active');
+			}, 1000);
+		});
+
+		//настройки скролла https://github.com/lukehaas/Scrollify
+		$(function() {
+			$.scrollify({
+				//Название секций скролла
+				section: ".panel",
+				//Скорость  скролла
+				scrollSpeed: 1500,
+				//Название секции где стандартный скролл
+				standardScrollElements: ".standartScroll",
+				updateHash: false,
+			});
+		});
+		//Получение клика по сабмиту
+		let btnClick = document.querySelector('.btnSov');
+		// количество запостщинных    
+		//let info = 1;
+		//Событие онклик 
+		btnClick.onclick = function() {
+			//поиск  инпута с ником
+			let inputNick = document.querySelector('.nick');
+			//получение значения инпута с ником
+			let nick = inputNick.value;
+			//поиск  инпута с текстом
+			let inputText = document.querySelector('.text');
+			//получение значения инпута с текстом
+			let text = inputText.value;
+			//поиск  инпута с заголовком
+			let inputHeading = document.querySelector('.heading');
+			//получение значения инпута с текстом
+			let heading = inputHeading.value;
+			//Последняя колонна
+			let chat = document.querySelector('.chat');
+			console.log(nick, heading, text)
+			console.log(info)
+			//Проверка количиства запостщенных
+			//if (info < 4) {
+				chat.innerHTML += '<div class="card col-2 mx-auto" style="margin:5vh;"><div class="card-body"><h5 class="card-title">' + heading + '</h5><h6 class="card-subtitle mb-2 text-muted">От: ' + nick + '</h6><p class="card-text">' + text + '</p></div></div>';
+				//info = info + 1
+			//} else {
+				//alert('Андрюха жопа, места ноль осталось');
+			//}
+
+		}
+		// let btnSuccessChal = document.querySelectorAll('.btnSuccessChal');
+		// let successChal = []
+		// let chalenges = document.querySelectorAll('.chalenge');
+		// for (let i = 0; i < btnSuccessChal.length; i++) {
+		// 	btnSuccessChal[i].onclick = function(){
+		// 		chalenge[i] = 
+		// 	}
+		// }
+
+		let btnClickChal = document.querySelector('.btnChal');
+		// количество запостщинных    
+		let infoChal = 1;
+		//Событие онклик 
+
+		btnClickChal.onclick = function() {
+
+			//поиск  инпута с ником
+			let inputNickChal = document.querySelector('.nickChal');
+			//получение значения инпута с ником
+			let nickChal = inputNickChal.value;
+			//поиск  инпута с текстом
+			let inputTextChal = document.querySelector('.textChal');
+			//получение значения инпута с текстом
+			let textChal = inputTextChal.value;
+			//поиск  инпута с заголовком
+			let inputHeadingChal = document.querySelector('.headingChal');
+			//получение значения инпута с текстом
+			let headingChal = inputHeadingChal.value;
+			//Последняя колонна
+			let chal = document.querySelector('.chal');
+			console.log(nickChal, headingChal, textChal)
+			console.log(infoChal)
+			infoChal = infoChal + 1;
+
+			//Проверка количиства запостщенных
+			//if (info < 4) {
+			chal.innerHTML += '<div class="card col-2 mx-auto chalenge" style="margin:5vh;"><div class="card-body"><h5 class="card-title">' + headingChal + '</h5><h6 class="card-subtitle mb-2 text-muted">От: ' + nickChal + '</h6><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#a' + infoChal + '">Начать</button></div><!-- Modal --><div class="modal fade" id="a' + infoChal + '" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalScrollableTitle">' + headingChal + '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body">' + textChal + '</div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Пока не получается</button><button type="button" class="btn btn-success btnSuccessChal" data-dismiss="modal">Я выполнил!</button></div></div></div></div>';
+			//btnSuccessChal = document.querySelectorAll('.btnSuccessChal');
+			// chalenges = document.querySelectorAll('.chalenge');
+			// btnSuccessChal[infoChal].onclick = function(){
+			// 	chalenges[infoChal] = '<div class="card col-2 mx-auto chalenge" style="margin:5vh;"><div class="card-body" style="background-color: #A6FF8F;"><h5 class="card-title">' + headingChal + '</h5><h6 class="card-subtitle mb-2 text-muted">От: ' + nickChal + '</h6><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#a' + infoChal + '">Начать</button></div><!-- Modal --><div class="modal fade" id="a' + infoChal + '" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="exampleModalScrollableTitle">' + headingChal + '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body">' + textChal + '</div><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button></div></div></div></div>';
+			// }
+
+			//} else {
+			//alert('Андрюха жопа, места ноль осталось, спаси "попу мыть"');
+			//}
+
+			
+
+		}
+		//Получение данные человека
+		let pain = document.querySelector('.pain');
+		let kash = document.querySelector('.kash');
+		let temp = document.querySelector('.temp');
+		let painT = false;
+		let tempT = false;
+		let kashT = false;
+		//Клик
+		pain.onclick = function() {
+			pain.style.fontSize = '34px';
+			painT = true;
+			//Проверка
+			if (tempT == true && kashT == true) {
+				alert('Советуем вызвать скорую');
+			}
+		}
+		kash.onclick = function() {
+			kash.style.fontSize = '34px';
+			kashT = true;
+			if (tempT == true && painT == true) {
+				alert('Советуем вызвать скорую');
+			}
+		}
+		temp.onclick = function() {
+			temp.style.fontSize = '34px';
+			tempT = true;
+			if (painT == true && kashT == true) {
+				alert('Советуем вызвать скорую');
+			}
+		}
+
+	</script>
+</body>
+
+
+</html>
